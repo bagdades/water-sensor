@@ -1,0 +1,3 @@
+syn keyword CTagsFunction main
+syn keyword CTagsDefinedName INC_H_
+
