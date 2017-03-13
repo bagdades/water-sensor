@@ -4,6 +4,11 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADCInit	water.c	/^void ADCInit(void) $/;"	f	signature:(void)
+ADCInit	water.h	/^void ADCInit(void);$/;"	p	signature:(void)
+ADCRead	water.c	/^int16_t ADCRead(uint8_t chanel) $/;"	f	signature:(uint8_t chanel)
+ADCRead	water.h	/^int16_t ADCRead(uint8_t chanel);$/;"	p	signature:(uint8_t chanel)
+ADC_VREF_TYPE	water.h	8;"	d
 AS	Makefile	/^AS = avr-gcc$/;"	m
 CC	Makefile	/^CC = avr-gcc$/;"	m
 CP	Makefile	/^CP = avr-objcopy$/;"	m
@@ -14,4 +19,5 @@ OD	Makefile	/^OD = avr-objdump$/;"	m
 RM	Makefile	/^RM = rm$/;"	m
 SZ	Makefile	/^SZ = avr-size$/;"	m
 TARGET	Makefile	/^TARGET = water$/;"	m
+WATER_INC	water.h	2;"	d
 main	main.c	/^int main(void)$/;"	f	signature:(void)

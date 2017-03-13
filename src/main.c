@@ -20,5 +20,6 @@
 
 int main(void)
 {
+	ADCInit();
 	while(1);
 }

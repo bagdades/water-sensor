@@ -15,5 +15,6 @@
 #include <inttypes.h>
 #include <util/delay.h>
 
+#include "water.h"
 
 #endif /* INC_H_ */
