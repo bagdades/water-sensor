@@ -20,6 +20,8 @@
 
 int main(void)
 {
+	Init();
+	TimerInit();
 	ADCInit();
 	while(1);
 }
