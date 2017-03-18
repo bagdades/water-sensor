@@ -8,16 +8,21 @@ ADCInit	water.c	/^void ADCInit(void) $/;"	f	signature:(void)
 ADCInit	water.h	/^void ADCInit(void);$/;"	p	signature:(void)
 ADCRead	water.c	/^int16_t ADCRead(uint8_t chanel) $/;"	f	signature:(uint8_t chanel)
 ADCRead	water.h	/^int16_t ADCRead(uint8_t chanel);$/;"	p	signature:(uint8_t chanel)
-ADC_VREF_TYPE	water.h	8;"	d
 AS	Makefile	/^AS = avr-gcc$/;"	m
 CC	Makefile	/^CC = avr-gcc$/;"	m
 CP	Makefile	/^CP = avr-objcopy$/;"	m
+F_CPU	water.h	7;"	d
 INC_H_	inc.h	9;"	d
+Init	water.h	/^void Init(void);$/;"	p	signature:(void)
 LD	Makefile	/^LD = avr-gcc$/;"	m
-MCU	Makefile	/^MCU = mcu=atmega8$/;"	m
+MCU	Makefile	/^MCU = mcu=attiny13$/;"	m
 OD	Makefile	/^OD = avr-objdump$/;"	m
 RM	Makefile	/^RM = rm$/;"	m
 SZ	Makefile	/^SZ = avr-size$/;"	m
+T0_FREQ	water.h	11;"	d
+T0_INIT	water.h	12;"	d
+T0_PRESC	water.h	10;"	d
 TARGET	Makefile	/^TARGET = water$/;"	m
+TimerInit	water.h	/^void TimerInit(void);$/;"	p	signature:(void)
 WATER_INC	water.h	2;"	d
 main	main.c	/^int main(void)$/;"	f	signature:(void)
